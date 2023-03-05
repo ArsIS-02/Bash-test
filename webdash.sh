@@ -67,7 +67,7 @@ do
     echo "${REV}Rapid Cyber Ops Ch. 12 -- Security Dashboard${OFF}" \
     | prSection 1
     #----------------------------------------
-    {                                                     
+    {                                                     
       printf 'connections:%4d %s\n' \
             $(netstat -an | grep 'ESTAB' | wc -l) "$(date)"
     } | prSection 1
